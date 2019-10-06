@@ -1,0 +1,129 @@
+html {
+    background-color: white;
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: auto;
+}
+
+h1 {
+    position: relative;
+    text-align: left;
+    top: 15rem;
+    color: black;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(45, 45, 45);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 27px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+nav a {
+    font-size: 25px;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.span2 {
+    grid-column: 1 / span 2;
+}
+
+.background {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.contacts-images {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    padding: 0.2em;
+}
+
+.proj1 {
+    grid-column: 1 / span 1;
+}
+
+.proj2 {
+    grid-column: 2 / span 1;
+}
+
+#main-name {
+    color: white;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+#main-title {
+    font-size: 60px;
+}
+
+#home {
+    padding: 50px;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#contact {
+    background-image: url("pictures/castle-dark.jpg");
+}
+
+#content {
+    border: 2px none black;
+    border-radius: 12px;
+    padding: 50px;
+}
