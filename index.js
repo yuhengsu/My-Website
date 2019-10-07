@@ -25,9 +25,9 @@ function initialize(data) {
         if (i === len - 1 && len % 2 === 1) {
             div.className = "span2";
         } else if (i % 2 === 1) {
-            div.className = "proj2";
+            div.className = "proj-column2";
         } else if (i % 2 === 0) {
-            div.className = "proj1";
+            div.className = "proj-column1";
         } else {
             console.log("Error in setting class name of div");
         }
@@ -42,7 +42,7 @@ function initialize(data) {
 
         img.setAttribute("src", data[i]['img']);
         img.setAttribute("alt", data[i]['alt']);
-        img.className = "image";
+        img.className = "proj-image";
 
         a.appendChild(img);
         div.appendChild(h4);
