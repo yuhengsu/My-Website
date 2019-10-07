@@ -13,9 +13,9 @@ request.onload = () => {
 function initialize(data) {
     let grid = document.querySelector('#content');
     let len = data.length;
-    let div = document.createElement('div');
 
     for (let i = 0; i < len; i++) {
+        let div = document.createElement('div');
 
         let h4 = document.createElement('h4');
         let a = document.createElement('a');
@@ -38,7 +38,8 @@ function initialize(data) {
         div.appendChild(h4);
         div.appendChild(a);
         div.appendChild(p);
+        grid.appendChild(div);
+
     }
-    grid.appendChild(div);
 
 }
