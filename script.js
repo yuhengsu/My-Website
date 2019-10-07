@@ -1,4 +1,4 @@
-var requestURL = 'http://stephenhwang.me/projects.json';
+var requestURL = 'https://yuhengsu.github.io/My-Website/projects.json';
 
 //Alternative way to fetch data
 var request = new XMLHttpRequest();
