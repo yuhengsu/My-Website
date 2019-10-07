@@ -3,7 +3,7 @@
         "img": "pictures/colour-me-calm.png",
         "link": "https://github.com/Jaysonyan/JammyJams",
         "alt": "Color Me Calm Project",
-        "desc": "A colouring game where the user uploads a picture of their choice and colours a pixelated version of it using a grid system. Features include different difficulty to increase the dimensions of the grid, as well as the ability to cloik and hold to colours."
+        "desc": "A colouring game where the user uploads a picture of their choice and colours a pixelated version of it using a grid system. Features include different difficulty to increase the dimensions of the grid, as well as the ability to click and hold to colours."
     },
     {
         "name": "Blud",
