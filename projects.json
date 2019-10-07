@@ -1,36 +1,22 @@
 [{
         "name": "Color Me Calm",
-        "img": "pictures/ColorMeCalm.PNG",
+        "img": "pictures/colour-me-calm.png",
         "link": "https://github.com/Jaysonyan/JammyJams",
         "alt": "Color Me Calm Project",
-        "desc": "A color by number game where the user uploads a picture and colors a pixelated version of it, can select difficulty to increase the dimensions of the pixelated image grid."
+        "desc": "A colouring game where the user uploads a picture of their choice and colours a pixelated version of it using a grid system. Features include different difficulty to increase the dimensions of the grid, as well as the ability to cloik and hold to colours."
     },
     {
-        "name": "Up4TheTask",
-        "img": "pictures/up4thetasksample.png",
-        "link": "https://github.com/Twelvekeystrokes/up4thetask",
-        "alt": "Up4TheTask project",
-        "desc": "A multitasking game designed around four different aspects of university life and the difficulty in trying to balance it all. Created using Pygame and won best tech at StarterHacks."
+        "name": "Blud",
+        "img": "pictures/blud.png",
+        "link": "https://github.com/yuhengsu/bludgame",
+        "alt": "Blud Game Project",
+        "desc": "A multiplayer puzzle platformer created to show the negative effects of gang involvement."
     },
     {
-        "name": "ReadingCyb.org",
-        "img": "pictures/readingcyborg.png",
-        "link": "https://github.com/Jaysonyan/reading-cyborg",
-        "alt": "ReadingCyb.org Project",
-        "desc": "An Alexa skill/app that reads children's literature from a database where stories are scraped from online databases."
-    },
-    {
-        "name": "Twitter Bot",
-        "img": "pictures/ifunny.PNG",
-        "link": "https://github.com/StephenHwang156/Twitter-Bot",
-        "alt": "Twitter Bot Project",
-        "desc": "A Twitter bot that scrapes image macros from ifunny.co, and posts them onto the designated Twitter account."
-    },
-    {
-        "name": "Python Triangle Drawer/Solver",
-        "img": "pictures/triangle.PNG",
-        "link": "https://github.com/StephenHwang156/Triangle-Solver-Drawer",
-        "alt": "Triangle Project",
-        "desc": "A python program that solves a triangle using either angle sum theorem or pythagorean theoremand draws the triangle using tkinter labelled with angles and side lengths."
+        "name": "Solitair 2.0",
+        "img": "pictures/solitair.png",
+        "link": "https://github.com/yuhengsu/Solitair-2.0",
+        "alt": "Solitair 2.0 Project",
+        "desc": "A custom version with custom rules of solitaire created using Turing. Custom version includes an endless mode where it lets the user to continously play and earn points until they decides to end the game "
     }
 ]
