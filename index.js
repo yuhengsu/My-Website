@@ -37,7 +37,7 @@ function initialize(data) {
         a.appendChild(img);
         div.appendChild(h4);
         div.appendChild(a);
-        h4.appendChild(p);
+        div.appendChild(p);
     }
     grid.appendChild(div);
 
