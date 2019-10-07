@@ -102,6 +102,19 @@ nav a {
     grid-column: 2 / span 1;
 }
 
+@media only screen and (max-width: 1250px) {
+    .image {
+        height: 17.5rem;
+        width: 17.5rem
+    }
+    .proj1 {
+        grid-column: 1 / span 2
+    }
+    .proj2 {
+        grid-column: 1 / span 2
+    }
+}
+
 #main-name {
     color: white;
     padding-left: 30px;
