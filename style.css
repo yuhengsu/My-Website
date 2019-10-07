@@ -31,10 +31,6 @@ h2 {
 }
 
 h3 {
-    text-align: center;
-}
-
-h4 {
     font-size: 35px;
 }
 
@@ -73,18 +69,17 @@ nav a {
     text-decoration: none;
 }
 
+article {
+    border-bottom: 1.5px solid black;
+    text-align: center;
+    overflow: auto;
+}
+
 .background {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 10px;
-    padding: 10px;
 }
 
 .contacts-images {
@@ -94,14 +89,26 @@ nav a {
     padding: 0.2em;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-column-gap: 100px;
+    padding: 10px;
+}
+
+.proj-span2-title {
+    grid-column: 1 / span 2;
+}
+
+.proj-span2-info {
+    padding-left: 315px;
+    padding-right: 315px;
+}
+
 .proj-image {
     border: 1px solid #ddd;
     height: 25rem;
     width: 35rem;
-}
-
-.sideproject {
-    width: 500px;
 }
 
 #main-name {
@@ -120,12 +127,12 @@ nav a {
     height: 100vh;
 }
 
-#contact {
-    background-image: url("pictures/castle-dark.jpg");
-}
-
 #content {
     border: 2px none black;
-    border-radius: 12px;
     padding: 50px;
+}
+
+#about {
+    padding-left: 150px;
+    padding-right: 150px;
 }

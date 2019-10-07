@@ -16,30 +16,34 @@ function initialize(data) {
 
     for (let i = 0; i < len; i++) {
         let div = document.createElement('div');
-
-        let h4 = document.createElement('h4');
+        let h3 = document.createElement('h3');
         let a = document.createElement('a');
         let img = document.createElement('img');
         let p = document.createElement('p');
 
-        h4.textContent = data[i]['name'];
+        if (i === len - 1 && len % 2 === 1) {
+            div.className = "proj-span2-title";
+            p.className = "proj-span2-info"
+        } else {
+            div.className = "proj-title"
+            p.className = "proj-info";
+        }
 
-        p.className = "sideproject";
+        h3.textContent = data[i]['name'];
+
         p.textContent = data[i]['desc'];
 
         a.setAttribute("href", data[i]['link']);
-        a.setAttribute("target", "_blank");
 
         img.setAttribute("src", data[i]['img']);
         img.setAttribute("alt", data[i]['alt']);
         img.className = "proj-image";
 
         a.appendChild(img);
-        div.appendChild(h4);
+        div.appendChild(h3);
         div.appendChild(a);
         div.appendChild(p);
         grid.appendChild(div);
-
     }
 
 }
