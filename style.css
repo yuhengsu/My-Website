@@ -94,6 +94,13 @@ nav a {
     padding: 0.2em;
 }
 
+.image {
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    height: 25rem;
+    width: 25rem;
+}
+
 .proj1 {
     grid-column: 1 / span 1;
 }
