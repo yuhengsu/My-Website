@@ -20,12 +20,12 @@ function initialize(data) {
         let h4 = document.createElement('h4');
         let a = document.createElement('a');
         let img = document.createElement('img');
-        let para = document.createElement('p');
+        let p = document.createElement('p');
 
         h4.textContent = data[i]['name'];
 
-        para.className = "sideproject";
-        para.textContent = data[i]['desc'];
+        p.className = "sideproject";
+        p.textContent = data[i]['desc'];
 
         a.setAttribute("href", data[i]['link']);
         a.setAttribute("target", "_blank");
@@ -36,8 +36,8 @@ function initialize(data) {
 
         a.appendChild(img);
         div.appendChild(h4);
-        div.appendChild(a);
-        div.appendChild(para);
+        h4.appendChild(a);
+        div.appendChild(p);
     }
     grid.appendChild(div);
 
