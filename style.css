@@ -96,6 +96,16 @@ article {
     padding: 10px;
 }
 
+@media only screen and (max-width: 1250px) {
+    .image {
+        height: 17.5rem;
+        width: 17.5rem
+    }
+    .proj-span2-title {
+        grid-column: 1 / span 2
+    }
+}
+
 .proj-span2-title {
     grid-column: 1 / span 2;
 }
