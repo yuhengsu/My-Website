@@ -3,7 +3,7 @@
         "img": "pictures/colour-me-calm.png",
         "link": "https://github.com/Jaysonyan/JammyJams",
         "alt": "Color Me Calm Project",
-        "desc": "A colouring game where the user uploads a picture of their choice and colours a pixelated version of it using a grid system. Features include different difficulty to increase the dimensions of the grid, as well as the ability to click and hold to colours."
+        "desc": "A colouring game where the user uploads a picture of their choice and colours a pixelated version of it using a grid system. Features include different difficulties to increase the dimensions of the grid, as well as the ability to click and hold to colours."
     },
     {
         "name": "Blud",
@@ -17,6 +17,6 @@
         "img": "pictures/solitair.png",
         "link": "https://github.com/yuhengsu/Solitair-2.0",
         "alt": "Solitair 2.0 Project",
-        "desc": "A custom version with custom rules of solitaire created using Turing. Custom version includes an endless mode where it lets the user to continously play and earn points until they decides to end the game "
+        "desc": "A custom version with of solitaire created using Turing. Solitair 2.0 includes an endless mode where it lets the user to continously play and earn points until they decides to end the game. The name first originated from a typo, but now it is named Solitair 2.0 with proud"
     }
 ]
