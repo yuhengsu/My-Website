@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 ul {
@@ -128,12 +128,6 @@ article {
     padding-right: 315px;
 }
 
-@media only screen and (max-width: 1400px) {
-    .proj-span2-info {
-        padding: 0;
-    }
-}
-
 .proj-image {
     border: 1px solid #ddd;
     height: 25rem;
@@ -148,14 +142,22 @@ article {
 }
 
 #main-title {
-    font-size: 60px;
+    font-size: 70px;
 }
 
 #home {
     padding: 50px;
     background-attachment: fixed;
-    background-image: url("pictures/test.png");
+    background-image: url("pictures/home-wallpaper.png");
+    background-position-y: -225px;
     height: 100vh;
+}
+
+@media only screen and (max-width: 1400px) {
+    .proj-span2-info {
+        padding: 0;
+    }
+    /* #home { Fix the background picture to fit in the middle of the mobile screen, and center is so i dont have to offset it with code} */
 }
 
 #content {
