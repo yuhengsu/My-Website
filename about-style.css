@@ -13,8 +13,8 @@ body {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(45, 45, 45);
+    color: white;
     width: auto;
 }
 
@@ -25,12 +25,12 @@ h1 {
 }
 
 h2 {
-    padding-top: 50px;
     text-align: center;
 }
 
-h3 {
+article {
     text-align: center;
+    overflow: auto;
 }
 
 ul {
@@ -78,6 +78,7 @@ nav a {
 #about {
     padding: 150px;
     background-image: url("pictures/line-bg.png");
+    text-align: left;
 }
 
 .grid-container {
@@ -112,8 +113,6 @@ nav a {
     font-size: 60px;
 }
 
-#puppy-and-me {}
-
 #info {
     background: black;
 }
@@ -122,4 +121,7 @@ nav a {
     text-align: center;
 }
 
-#contact {}
+#contact {
+    background-image: url("pictures/contacts-bg-test.png");
+    background-attachment: scroll;
+}
