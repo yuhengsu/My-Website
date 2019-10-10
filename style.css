@@ -109,6 +109,7 @@ article {
     border: 1px solid #ddd;
     height: 25rem;
     width: 35rem;
+    border-radius: 5px;
 }
 
 #main-name {
@@ -141,6 +142,6 @@ article {
 }
 
 #contact {
-    background-image: url("pictures/contacts-bg-test.png");
+    background-image: url("pictures/contacts-bg.png");
     background-attachment: scroll;
 }
