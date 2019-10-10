@@ -82,6 +82,13 @@ article {
     background-attachment: fixed;
 }
 
+.image {
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    height: 25rem;
+    width: 25rem;
+}
+
 .contacts-images {
     border-radius: 50%;
     height: 5rem;
@@ -107,10 +114,24 @@ article {
     .proj-span2-title {
         grid-column: 1 / span 2
     }
+    .proj-span2-info {
+        padding: -315;
+    }
 }
 
 .proj-span2-title {
     grid-column: 1 / span 2;
+}
+
+.proj-span2-info {
+    padding-left: 315px;
+    padding-right: 315px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .proj-span2-info {
+        padding: 0;
+    }
 }
 
 .proj-image {
