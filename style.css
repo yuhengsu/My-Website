@@ -96,10 +96,13 @@ article {
     padding: 10px;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1400px) {
     .image {
-        height: 17.5rem;
+        height: 12.5rem;
         width: 17.5rem
+    }
+    .proj-title {
+        grid-column: 1/ span 2;
     }
     .proj-span2-title {
         grid-column: 1 / span 2
@@ -108,11 +111,6 @@ article {
 
 .proj-span2-title {
     grid-column: 1 / span 2;
-}
-
-.proj-span2-info {
-    padding-left: 315px;
-    padding-right: 315px;
 }
 
 .proj-image {
