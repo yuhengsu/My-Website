@@ -83,12 +83,21 @@ nav a {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 10px;
 }
 
+@media only screen and (max-width: 1400px) {
+    .image {
+        height: 12.5rem;
+        width: 17.5rem
+    }
+    .about-grid {
+        grid-column: 1/ span 2;
+    }
+}
+
 .about-grid {
-    grid-column: 1 / 2;
     width: 500px;
     padding-top: 10px;
     padding-left: 50px;
