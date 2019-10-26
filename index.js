@@ -1,4 +1,4 @@
-var requestURL = 'https://yuhengsu.github.io/My-Website/projects.json';
+var requestURL = 'https://yuhengsu.com/projects.json';
 
 //Alternative way to fetch data
 var request = new XMLHttpRequest();
@@ -19,19 +19,15 @@ function initialize(data) {
         let h3 = document.createElement('h3');
         let a = document.createElement('a');
         let img = document.createElement('img');
-        let p = document.createElement('p');
 
         if (i === len - 1 && len % 2 === 1) {
             div.className = "proj-span2-title";
-            p.className = "proj-span2-info"
         } else {
             div.className = "proj-title"
-            p.className = "proj-info";
         }
 
         h3.textContent = data[i]['name'];
 
-        p.textContent = data[i]['desc'];
 
         a.setAttribute("href", data[i]['link']);
 
@@ -42,7 +38,6 @@ function initialize(data) {
         a.appendChild(img);
         div.appendChild(h3);
         div.appendChild(a);
-        div.appendChild(p);
         grid.appendChild(div);
     }
 

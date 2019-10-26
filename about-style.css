@@ -4,17 +4,15 @@ html {
 }
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 20px;
     margin: 0;
 }
 
 footer {
-    padding: 20px;
+    padding-top: 50px;
     text-align: center;
-    background-color: rgb(45, 45, 45);
-    color: white;
     width: auto;
 }
 
@@ -34,15 +32,11 @@ article {
 }
 
 ul {
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    width: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 50px;
     overflow: hidden;
-    background-color: rgb(45, 45, 45);
+    position: relative;
+    left: 45px;
 }
 
 li {
@@ -56,53 +50,44 @@ li a {
     padding-top: 27px;
     padding-left: 30px;
     text-decoration: none;
+    outline: none;
 }
 
 li a:hover {
-    color: white;
+    color: lightgray;
 }
 
 nav a {
-    font-size: 25px;
-    color: lightgray;
+    font-size: 15px;
+    color: black;
     text-decoration: none;
-}
-
-.background {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-#about {
-    padding: 150px;
-    background-image: url("pictures/line-bg.png");
-    text-align: left;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-}
-
-@media only screen and (max-width: 1400px) {
-    .image {
-        height: 12.5rem;
-        width: 17.5rem
-    }
-    .about-grid {
-        grid-column: 1/ span 2;
-    }
+    grid-template-columns: auto auto auto;
 }
 
 .about-grid {
+    font-size: 20px;
     width: 500px;
     padding-top: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    color: white;
+    color: black;
+}
+
+.picture-grid {
+    width: 400px;
+}
+
+.blank-grid {
+    width: 8.3%;
+}
+
+.block {
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .contacts-images {
@@ -113,24 +98,42 @@ nav a {
 }
 
 #main-name {
-    color: white;
+    color: black;
     padding-left: 30px;
-    font-size: 50px;
+    font-size: 45px;
+    position: relative;
+    left: 77px;
 }
 
-#main-title {
-    font-size: 60px;
+#puppy-and-me {
+    padding-top: 100px;
 }
 
-#info {
-    background: black;
+#about {
+    text-align: left;
 }
 
 #title {
     text-align: center;
+    font-size: 30px;
 }
 
-#contact {
-    background-image: url("pictures/contacts-bg.png");
-    background-attachment: scroll;
+#canvas {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 75px;
+}
+
+#blank {
+    clear: both;
+}
+
+@media only screen and (max-width: 1400px) {
+    .image {
+        height: 12.5rem;
+        width: 17.5rem
+    }
+    .about-grid {
+        grid-column: 1/ span 2;
+    }
 }

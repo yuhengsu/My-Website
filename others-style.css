@@ -4,17 +4,15 @@ html {
 }
 
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 20px;
     margin: 0;
 }
 
 footer {
-    padding: 20px;
+    padding-top: 50px;
     text-align: center;
-    background-color: rgb(45, 45, 45);
-    color: white;
     width: auto;
 }
 
@@ -33,20 +31,12 @@ article {
     overflow: auto;
 }
 
-h4 {
-    padding: 0 0 2em 0
-}
-
 ul {
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    width: 100%;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-bottom: 50px;
     overflow: hidden;
-    background-color: rgb(45, 45, 45);
+    position: relative;
+    left: 45px;
 }
 
 li {
@@ -60,23 +50,40 @@ li a {
     padding-top: 27px;
     padding-left: 30px;
     text-decoration: none;
+    outline: none;
 }
 
 li a:hover {
-    color: white;
+    color: lightgray;
 }
 
 nav a {
-    font-size: 25px;
-    color: lightgray;
+    font-size: 15px;
+    color: black;
     text-decoration: none;
 }
 
-.background {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.about-grid {
+    font-size: 20px;
+    width: 500px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+.blank-grid {
+    width: 115px;
+}
+
+.block {
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .contacts-images {
@@ -86,28 +93,37 @@ nav a {
     padding: 0.2em;
 }
 
+#proj-images {
+    text-align: center;
+    width: 50rem;
+    height: 30rem;
+}
+
 #main-name {
-    color: white;
+    color: black;
     padding-left: 30px;
-    font-size: 50px;
+    font-size: 45px;
+    position: relative;
+    left: 77px;
 }
 
-#main-title {
-    font-size: 60px;
+#title {
+    text-align: center;
+    font-size: 30px;
 }
 
-#main-meme {
-    padding: 50px;
-    background-attachment: fixed;
-    background-image: url("pictures/Shiba-Inu-Two.png");
-    height: 80vh;
+#info {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
-#meme-text {
-    font-size: 20px;
+#canvas {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 75px;
 }
 
-#contact {
-    background-image: url("pictures/contacts-bg.png");
-    background-attachment: scroll;
+#blank {
+    clear: both;
 }

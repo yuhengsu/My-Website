@@ -6,35 +6,37 @@
     <title>Yu Heng Su</title>
 
     <meta name="author" content="Yu Heng Su">
-    <meta name="description" content="Yu Heng's Personal Website (Other page)">
+    <meta name="description" content="Yu Heng's Website (About me page)">
     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="others-style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 
-<body class="background">
-    <div class="legend">
-        <nav>
-            <ul>
-                <li id="main-name">Yu Heng Su</li>
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="about-me.html"> About Me</a></li>
-                <li><a href="Benson Su - CS.pdf"> Resume</a></li>
-                <li><a href="others.html"> A Meme</a></li>
-            </ul>
-        </nav>
-    </div>
+<body>
+    <div id="canvas">
+        <header id="main-name">Yu Heng Su</header>
+        <div class="legend">
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Projects</a></li>
+                    <li><a href="about-me.html"> About Me</a></li>
+                    <li><a href="Benson Su - CS.pdf"> Resume</a></li>
+                </ul>
+            </nav>
+        </div>
 
-    <article id="main-meme" class="background">
-        <h1><br/>
-            <div id="loge"><img src="pictures/loge.png" alt="Logarimthic Doge"></div>
-            <p id="meme-text">My favourite math function</p>
-        </h1>
-
-    </article>
-
-    <footer>
+        <!-- About Me/Projects Section -->
+        <article id="about" class="background">
+            <div>
+                <p id="title"> Colour Me Calm</p>
+                <p id="info">Colour e calm is a colouring game where the user uploads a picture of their choice. Then the game will break down the picture into a grid where the user then has to colour each square by correctly matching the numbers in the square to
+                    the numbers in the colour palette. The size of the grid depends on the difficulty that the user selects, the difficulty goes from a range of easy to hard. </p>
+                <img id="proj-images" src="pictures/colour-me-calm.png" alt="Colour Me Calm title page ">
+                <img id="proj-images" src="pictures/colour-begin.png" alt="Colour Me Calm title page ">
+                <img id="proj-images" src="pictures/colour-before-after.jpg" alt="Colour Me Calm title page ">
+            </div>
+        </article>
         <footer id="contact" class="background">
             <div id="content ">
                 <h2>Contact me</h2>
@@ -43,8 +45,7 @@
                 <a href="https://github.com/yuhengsu"><img src="pictures/github-icon.png " alt="github " class="contacts-images " /></a>
             </div>
         </footer>
-    </footer>
-
+    </div>
 </body>
 
 </html>
