@@ -114,14 +114,34 @@ nav a {
 
 #info {
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 215px;
+    padding-right: 215px;
 }
 
 #canvas {
     max-width: 1200px;
     margin: 10px auto;
     padding: 75px;
+}
+
+#repo-image {
+    width: 1.2rem;
+    height: 1.5rem;
+}
+
+#paint-image {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#repo-link {
+    padding-left: 560px;
+    color: lightgray;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
 }
 
 #blank {
