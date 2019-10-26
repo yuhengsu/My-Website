@@ -1,6 +1,6 @@
 [{
         "name": "Color Me Calm",
-        "img": "pictures/colour-me-calm.png",
+        "img": "pictures/colour-icon.png",
         "link": "https://yuhengsu.com/colour-me-calm",
         "alt": "Color Me Calm Project"
     },
@@ -12,7 +12,7 @@
     },
     {
         "name": "Solitaire 2.0",
-        "img": "pictures/solitair.png",
+        "img": "pictures/solitaire-icon.png",
         "link": "https://yuhengsu.com/solitaire",
         "alt": "Solitair 2.0 Project"
     },
