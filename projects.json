@@ -13,12 +13,12 @@
     {
         "name": "Solitaire 2.0",
         "img": "pictures/solitaire-icon.png",
-        "link": "https://yuhengsu.com/solitare",
+        "link": "https://yuhengsu.com/solitaire",
         "alt": "Solitair 2.0 Project"
     },
     {
         "name": "Paint",
-        "img": "pictures/paint.png",
+        "img": "pictures/paint-icon.png",
         "link": "https://yuhengsu.com/paint",
         "alt": "Paint project"
     }
