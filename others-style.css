@@ -147,3 +147,14 @@ nav a {
 #blank {
     clear: both;
 }
+
+@media only screen and (max-width: 1000px) {
+    .image {
+        height: 12.5rem;
+        width: 17.5rem
+    }
+    #info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
