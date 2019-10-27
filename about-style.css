@@ -68,7 +68,7 @@ nav a {
     grid-template-columns: auto auto auto;
 }
 
-.about-grid {
+.info-grid {
     font-size: 20px;
     width: 500px;
     padding-top: 10px;
@@ -128,18 +128,20 @@ nav a {
     clear: both;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1200px) {
     .image {
         height: 12.5rem;
         width: 17.5rem
     }
+    .info-grid {
+        grid-column: 1 / span 3;
+    }
+    .blank-grid {
+        width: 0%;
+        height: 0%;
+    }
     #puppy-and-me {
         padding-top: 0;
         padding-left: 100px;
-    }
-    .grid-container {
-        padding-left: 150px;
-        display: grid;
-        grid-template-columns: auto;
     }
 }
