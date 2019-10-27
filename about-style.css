@@ -133,11 +133,13 @@ nav a {
         height: 12.5rem;
         width: 17.5rem
     }
-    .about-grid {
-        grid-column: 1/ span 3;
-    }
     #puppy-and-me {
         padding-top: 0;
         padding-left: 100px;
+    }
+    .grid-container {
+        padding-left: 150px;
+        display: grid;
+        grid-template-columns: auto;
     }
 }

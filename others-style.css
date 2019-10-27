@@ -148,7 +148,7 @@ nav a {
     clear: both;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1250px) {
     .image {
         height: 12.5rem;
         width: 17.5rem
