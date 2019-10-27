@@ -157,4 +157,13 @@ nav a {
         padding-left: 0px;
         padding-right: 0px;
     }
+    #repo-link {
+        padding-left: 0;
+        color: lightgray;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+    }
 }
