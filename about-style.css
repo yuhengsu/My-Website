@@ -136,10 +136,6 @@ nav a {
     .info-grid {
         grid-column: 1 / span 3;
     }
-    .blank-grid {
-        width: 0%;
-        height: 0%;
-    }
     #puppy-and-me {
         padding-top: 0;
         padding-left: 100px;
