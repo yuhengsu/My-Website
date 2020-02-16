@@ -18,8 +18,14 @@
     },
     {
         "name": "YorkU Badminton Club Website",
-        "img": "pictures/york/york-icon",
+        "img": "pictures/york/york-icon.png",
         "link": "https://yuhengsu.com/yorkU-badminton",
         "alt": "YorkU Badminton Club project"
+    },
+    {
+        "name": "Paint",
+        "img": "pictures/paint/paint-icon.png",
+        "link": "https://yuhengsu.com/paint",
+        "alt": "Paint project"
     }
 ]
