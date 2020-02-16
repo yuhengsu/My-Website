@@ -121,6 +121,16 @@ nav a {
     outline: none;
 }
 
+#repo-request-link {
+    padding-left: 445px;
+    color: lightgray;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
 #website-link {
     padding-left: 560px;
     color: lightgray;
