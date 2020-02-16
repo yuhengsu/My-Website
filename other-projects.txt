@@ -1,0 +1,6 @@
+    {
+        "name": "Paint",
+        "img": "pictures/paint/paint-icon.png",
+        "link": "https://yuhengsu.com/paint",
+        "alt": "Paint project"
+    },
