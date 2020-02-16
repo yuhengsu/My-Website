@@ -121,6 +121,16 @@ nav a {
     outline: none;
 }
 
+#website-link {
+    padding-left: 560px;
+    color: lightgray;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
 @media only screen and (max-width: 1200px) {
     .image {
         height: 12.5rem;
