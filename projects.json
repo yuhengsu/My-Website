@@ -1,25 +1,30 @@
 [{
         "name": "Color Me Calm",
-        "img": "pictures/colour-icon.png",
+        "img": "pictures/colour/colour-icon.png",
         "link": "https://yuhengsu.com/colour-me-calm",
         "alt": "Color Me Calm Project"
     },
     {
         "name": "Blud",
-        "img": "pictures/blud-icon.png",
+        "img": "pictures/blud/blud-icon.png",
         "link": "https://yuhengsu.com/blud",
         "alt": "Blud Game Project"
     },
     {
         "name": "Solitaire 2.0",
-        "img": "pictures/solitaire-icon.png",
+        "img": "pictures/solitaire/solitaire-icon.png",
         "link": "https://yuhengsu.com/solitaire",
         "alt": "Solitair 2.0 Project"
     },
     {
         "name": "Paint",
-        "img": "pictures/paint-icon.png",
+        "img": "pictures/paint/paint-icon.png",
         "link": "https://yuhengsu.com/paint",
         "alt": "Paint project"
+    } {
+        "name": "YorkU Badminton Club Website",
+        "img": "pictures/york/york-icon",
+        "link": "https://yuhengsu.com/yorkU-badminton",
+        "alt": "YorkU Badminton Club project"
     }
 ]
