@@ -141,7 +141,7 @@ nav a {
     outline: none;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .image {
         height: 12.5rem;
         width: 17.5rem
