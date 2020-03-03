@@ -1,8 +1,21 @@
-[{
+[
+    {
+        "name": "Personal Website",
+        "img": "pictures/website.png",
+        "link": "https://yuhengsu.com",
+        "alt": "My Personal Website"
+    },
+    {
         "name": "Color Me Calm",
         "img": "pictures/colour/colour-icon.png",
         "link": "https://yuhengsu.com/colour-me-calm",
         "alt": "Color Me Calm Project"
+    },
+    {
+        "name": "YorkU Badminton Club Website",
+        "img": "pictures/york/york-icon.png",
+        "link": "https://yuhengsu.com/yorkU-badminton",
+        "alt": "YorkU Badminton Club project"
     },
     {
         "name": "Blud",
@@ -15,12 +28,6 @@
         "img": "pictures/solitaire/solitaire-icon.png",
         "link": "https://yuhengsu.com/solitaire",
         "alt": "Solitair 2.0 Project"
-    },
-    {
-        "name": "YorkU Badminton Club Website",
-        "img": "pictures/york/york-icon.png",
-        "link": "https://yuhengsu.com/yorkU-badminton",
-        "alt": "YorkU Badminton Club project"
     },
     {
         "name": "Paint",
