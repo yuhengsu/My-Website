@@ -1,9 +1,14 @@
-[
-    {
+[{
         "name": "Personal Website",
         "img": "pictures/website.png",
         "link": "https://yuhengsu.com",
         "alt": "My Personal Website"
+    },
+    {
+        "name": "Up-Grade",
+        "img": "pictures/up-grade/upgrade-icon.png",
+        "link": "https://yuhengsu.com/upgrade",
+        "alt": "Up-Grade Project"
     },
     {
         "name": "YorkU Badminton Club Website",
