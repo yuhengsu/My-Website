@@ -7,37 +7,31 @@
     {
         "name": "Up-Grade",
         "img": "pictures/up-grade/upgrade-icon.png",
-        "link": "https://yuhengsu.com/upgrade",
+        "link": "https://yuhengsu.com/projects/upgrade",
         "alt": "Up-Grade Project"
     },
     {
         "name": "YorkU Badminton Club Website",
         "img": "pictures/york/york-icon.png",
-        "link": "https://yuhengsu.com/yorkU-badminton",
+        "link": "https://yuhengsu.com/projects/yorkU-badminton",
         "alt": "YorkU Badminton Club project"
     },
     {
         "name": "Color Me Calm",
         "img": "pictures/colour/colour-icon.png",
-        "link": "https://yuhengsu.com/colour-me-calm",
+        "link": "https://yuhengsu.com/projects/colour-me-calm",
         "alt": "Color Me Calm Project"
     },
     {
         "name": "Blud",
         "img": "pictures/blud/blud-icon.png",
-        "link": "https://yuhengsu.com/blud",
+        "link": "https://yuhengsu.com/projects/blud",
         "alt": "Blud Game Project"
     },
     {
         "name": "Solitaire 2.0",
         "img": "pictures/solitaire/solitaire-icon.png",
-        "link": "https://yuhengsu.com/solitaire",
+        "link": "https://yuhengsu.com/projects/solitaire",
         "alt": "Solitair 2.0 Project"
-    },
-    {
-        "name": "Paint",
-        "img": "pictures/paint/paint-icon.png",
-        "link": "https://yuhengsu.com/paint",
-        "alt": "Paint project"
     }
 ]
