@@ -72,8 +72,8 @@ nav a {
 
 #proj-images {
     text-align: center;
-    width: 50rem;
-    height: 30rem;
+    max-width: 50rem;
+    max-height: 30rem;
 }
 
 #main-name {
@@ -93,6 +93,14 @@ nav a {
     text-align: center;
     padding-left: 215px;
     padding-right: 215px;
+}
+
+#sub-info {
+    text-align: center;
+    padding-left: 215px;
+    padding-right: 215px;
+    font-size: 15px;
+    /* font-style: italic; */
 }
 
 #canvas {

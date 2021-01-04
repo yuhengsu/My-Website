@@ -5,6 +5,24 @@
         "alt": "My Personal Website"
     },
     {
+        "name": "UTM CSSC",
+        "img": "pictures/cssc/cssc-icon.png",
+        "link": "https://yuhengsu.com/projects/cssc",
+        "alt": "CSSC Project"
+    },
+    {
+        "name": "Down The Bunny Goes",
+        "img": "pictures/bunny-game/bunny-icon.png",
+        "link": "https://yuhengsu.com/projects/bunny-game",
+        "alt": "Down the Bunny Goes Minigame"
+    },
+    {
+        "name": "Discord Bots",
+        "img": "pictures/discord-bot/bots-icon.png",
+        "link": "https://yuhengsu.com/projects/discord-bots",
+        "alt": "Discord Bots Projects"
+    },
+    {
         "name": "Up-Grade",
         "img": "pictures/up-grade/upgrade-icon.png",
         "link": "https://yuhengsu.com/projects/upgrade",
